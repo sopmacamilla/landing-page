@@ -1,3 +1,3 @@
 # landing-page
 
-Landing Page using Bootstrap
+Using Bootstrap
