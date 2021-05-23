@@ -1,0 +1,164 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Bootstrap</title>
+     <!--Link para pegar o estilo CSS dos servidores do Bootstrap-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <style>
+         .tm-social {
+             width: 30px;
+             height: 30px;
+         }
+     </style>
+ </head>
+ <body>
+<!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(255, 255, 255)">
+        <a class="navbar-brand" href="#">S!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-secondary" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Técnicas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="#">Organização</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tintas
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Base d'água</a>
+                <a class="dropdown-item" href="#">Solvente</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn btn-outline-warning my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+    <!--/Menu-->
+    <!--Carrossel-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.desktopbackground.org/download/1280x720/2013/05/19/578605_screen-printing-wallpapers-mh7_2160x1281_h.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://imgix.gizmodo.com.au/content/uploads/sites/2/2013/10/03/hktt3bkq9uha1safn2gn.jpg?ar=16%3A9&auto=format&fit=crop&q=80&w=1280&nrs=30" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://static.frieze.com/files/inline-images/web_corita-kentt-it-can-be-said-of-them-1969-courtesy-corita-art-center-immaculate-heart-community-los-angeles-1-scaled.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    <!--/Carrossel-->
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-danger text-light">
+        <div class="container">
+          <h1 class="display-4">Serigrafia e muitos mais!</h1>
+        </div>
+      </div>
+    <!--/Jumbotron-->
+    <!--Card-->
+      <div class="container">
+       <div class="row mt-30 mb-30">
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="https://i.pinimg.com/564x/83/ae/c0/83aec0c276db59244663c7b89b887606.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Diversifique!</h5>
+                <p class="card-text">Já pensou em usar a mesma arte em outro produto? Otimize suas vendas diversificando seus produtos.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://i.pinimg.com/564x/ae/65/33/ae6533f41973ae78232ba2ddb7d5f083.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Mais que um feed bonitinho</h5>
+                <p class="card-text">Invistir em cenários e boas fotos, além de deixar seu feed mais atrativo, pode te ajudar a captar mais clientes e alavancar suas vendas. </p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--/Card-->
+    
+    <!--Texto e Video-->
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+                <h3>Zansky</h3>
+                <p>Ilustrador, artista gráfico e serígrafo, faz ilustrações para revistas, livros, sites, camisetas, capas de disco, pôsteres, produtos e outras necessidades dos clientes. Seu trabalho é orgânico, ácido e por vezes tratado como psicodélico por conta do uso profuso de cores.</p>
+                <p>Formação:
+                    UNESP – Artes Plásticas
+                    ETE Carlos de Campos – Desenho de Comunicação</p>
+                <p>Fonte: https://www.zansky.com.br/old/bio/</p>
+              </div>
+  
+              <div class="col-md-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/1dJ2o31u_IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>  
+        </div>  
+    </div>
+    <!--Texto e Video-->
+    <!--Rodape-->
+    <hr>
+    <footer>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+            <a href="https://www.linkedin.com/in/valisopmacamilla/" target="_blank" class="p-2">
+                <img class="tm-social" src="assets/img/linkedin.png" alt="Logo do Linkedin"></a>
+             <a href="https://github.com/sopmacamilla" target="_blank" class="p-2">
+                <img class="tm-social" src="assets/img/github" alt="Logo do GitHub"></a>         
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content">
+        <div class="col-md-12">
+          <p class = "text-center">Todos os direitos reservados: Camilla C &copy</p>
+        </div>
+      </div>
+    </footer>
+  <!--/Rodape-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--Scripts necessários para utilização dos códigos JS do Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </body>
+ </html>
