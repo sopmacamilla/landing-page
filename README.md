@@ -1,4 +1,4 @@
-# landing-page
+# Landing Page using Bootstrap
 
 Atividade realizada no bootcamp da Geneneration Brasil, durante o bloco de Front-end.
 
